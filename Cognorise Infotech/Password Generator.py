@@ -1,6 +1,6 @@
 import random as rn
 import string as st
-spe_char = '!@#$%^&*<>,.-+?'
+spe_char = '!@#$%^&*<>,.-+?_'
 password =[]
 print("Password generator: ")  
 length = int(input("Enter the length of the password you want: "))         
