@@ -6,8 +6,5 @@ def perimeter(length,breadth):
 length = int(input("Enter the length: "))
 breadth = int(input("Enter the breadth: "))
 
-Area = area(length,breadth)
-Perimeter = perimeter(length,breadth)
-
-print("Area is: ",Area)
-print("Perimeter is: ",Perimeter)
+print("Area is: ",area(length,breadth))
+print("Perimeter is: ",perimeter(length,breadth))
