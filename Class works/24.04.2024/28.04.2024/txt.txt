@@ -1,0 +1,5 @@
+write a program in python to find the sum of n natural numbers using recursion
+write a program in python to search an element from a list using linear search and recursion
+write a program in python to find the max element from a list from recursive function
+min value using recursive function
+max and min 
