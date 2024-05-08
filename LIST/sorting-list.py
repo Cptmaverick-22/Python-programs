@@ -9,7 +9,6 @@ def sorting(list1,list2):
 list1 = [int(x) for x in input("Enter the elements: ").split()]
 list2 = [int(x) for x in input("Enter the elements: ").split()]
 sorting(list1,list2)
-
 list1.extend(list2)
 list1.sort()
 print(list1)
