@@ -10,6 +10,6 @@ for i in range(n):
 print(fibo_list)
 
 for x in fibo_list:
-    if x>0:
+    if x%2==0:
         sum = sum+x
 print("The sum of even numbers is: ",sum)
