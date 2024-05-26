@@ -4,7 +4,7 @@ c = int(input("Third: "))
 l = a
 if b > l:
     l = b
-elif c > l:
+if c > l:
     l = c
 
 print("Greatest: ",l)
@@ -22,3 +22,8 @@ elif b>c and b>a:
     print("b is maximum",b)
 else:
     print("c is maximum",c)
+
+#Another Way
+
+n = [int(i) for i in input("Enter the numberrs: ").split()]
+print(max(n))

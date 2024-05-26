@@ -3,6 +3,6 @@ def cel_to_far (celsius):
 
 celsius_temp = [100]
 
-far = list(map(cel_to_far,celsius_temp))
+far = list(map(cel_to_far,celsius_temp)) #map function takes two arguments (function name) and (list variable)
 
 print("The farhneit temp is: ",far)
