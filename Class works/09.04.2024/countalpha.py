@@ -24,3 +24,4 @@ if flag==1:
 else:
     print("NOT Super ASCII")
     
+    

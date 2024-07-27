@@ -14,3 +14,4 @@ while lb <= up:
         lb = mid + 1
 else: 
     print("Element not found in the array")
+
